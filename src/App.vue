@@ -19,7 +19,9 @@
     -moz-osx-font-smoothing: grayscale;
     color: #2c3e50;
   }
-
+  .van-swipe{
+    max-height:3.5rem;
+  }
   .van-search__cancel {
     color: orange;
   }
@@ -29,11 +31,9 @@
   .element.style {
   }
   .van-cell{
-    font-size: 16px;
-    line-height: 2rem;
+    font-size: 16px
   }
   .van-cell__right-icon{
-    line-height: 2.1rem;
   }
   .van-cell__title{
     font-size: 18px;
@@ -42,9 +42,7 @@
     background-color: #fff;
   }
   .van-card__title{
-    margin-bottom: 0.5rem;
   }
   .van-submit-bar__price{
-    font-size: 1.2rem;
   }
 </style>

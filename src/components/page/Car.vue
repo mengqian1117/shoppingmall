@@ -191,6 +191,7 @@
     background-color: #fff;
   }
   .cart_delete{
+    font-size: 16px;
     line-height: 100px;
     padding: 0 10px;
     color: #fff;
@@ -203,7 +204,7 @@
   }
 
   .clear_invalid{
-    width: 10rem;
+    width: 3rem;
     color: @font-color-gray;
     border: 1px solid @font-color-gray;
     margin: 0 auto;
@@ -211,6 +212,7 @@
     padding: 5px 3px;
     margin-top: 20px;
     border-radius: 3px;
+    font-size: 16px;
   }
   //购物车
   .tab-cart > .card-goods .van-checkbox {
@@ -225,6 +227,9 @@
     margin-top: 0;
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+  .van-card__num, .van-card__price{
+    min-width: 1rem;
   }
 
 </style>
